@@ -1,9 +1,9 @@
 market,unit_size,small_flow_pct,small_flow_units,large_flow_pct,large_flow_units,take_profit_pct,leverage,market_code
-TSLL,40,0.04,2,0.13,7,0.03,2,FN
+TSLL,100,0.04,2,0.13,7,0.03,2,FN
 MSFL,100,0.04,2,0.13,7,0.03,2,FN
 GGLL,130,0.04,2,0.13,7,0.03,2,FN
 NVDL,105,0.04,2,0.13,7,0.03,2,FN
-YINN,150,0.04,2,0.13,7,0.03,3,FA
-SHNY,280,0.04,2,0.13,7,0.03,3,FA
+YINN,200,0.04,2,0.13,7,0.03,3,FA
+SHNY,420,0.04,2,0.13,7,0.03,3,FA
 TQQQ,120,0.04,2,0.13,7,0.03,3,FN
-FNGU,100,0.04,2,0.13,7,0.03,3,FA
+FNGU,130,0.04,2,0.13,7,0.03,3,FA
