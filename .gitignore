@@ -1,0 +1,45 @@
+# ▶ Python 캐시 파일
+__pycache__/
+*.py[cod]
+*.so
+
+# ▶ 가상환경 폴더 (PyCharm에서 자주 생성)
+venv/
+ENV/
+env/
+.venv/
+
+# ▶ PyCharm 설정 폴더
+.idea/
+
+# ▶ 로그 파일
+*.log
+
+# ▶ 환경 변수 파일
+.env
+*.env
+
+# ▶ 테스트 결과
+*.cover
+coverage.*
+htmlcov/
+
+# ▶ 패키징 빌드 파일
+build/
+dist/
+*.egg-info/
+
+# ▶ OS 관련 파일 (Windows)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ▶ Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# ▶ 기타 편집기
+.vscode/
+
+# ▶ 잠금 파일
+Pipfile.lock
+poetry.lock
