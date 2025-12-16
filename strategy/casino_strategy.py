@@ -215,7 +215,14 @@ def generate_buy_orders(setting_df: pd.DataFrame, buy_log_df: pd.DataFrame, curr
                             # large 가 방금 체결된 칸일 수도 있으니 uuid 초기화
                             buy_log_df.loc[large_idx, "buy_uuid"] = None
 
+                # case4: cancel 상태 처리
+                elif filled == "cancel":
+                    print(f"🚫 {market} {buy_type} 주문 cancel 처리 → uuid / filled 초기화")
 
+                    buy_log_df.loc[row_index, "buy_uuid"] = None
+                    buy_log_df.loc[row_index, "filled"] = ""
+
+                    continue
 
                 elif pd.isna(filled) or filled == "":
                     print(f"📝 {market} {buy_type} 수동 주문 → 필드 유효성 검사")
